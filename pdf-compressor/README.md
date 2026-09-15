@@ -10,7 +10,7 @@ The engine is built so that a page, an image or a character of text cannot be lo
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | The complete application: markup, styles, logo, compression engine and PDF library |
+| `PDF-Compressor.html` | The complete application: markup, styles, logo, compression engine and PDF library |
 | `README.md` | Documentation |
 | `LICENSE` | MIT license |
 
@@ -73,7 +73,7 @@ Estimated sizes for all four levels are computed from the document's actual imag
 
 ## Usage
 
-1. Open `index.html` in a modern browser, or visit the published URL.
+1. Open `PDF-Compressor.html` in a modern browser, or visit the published URL.
 2. Select a PDF, or drag one onto the drop area.
 3. Review the estimated size for each level.
 4. Choose a level and select **Compress PDF**. The result downloads automatically.
@@ -83,7 +83,7 @@ Estimated sizes for all four levels are computed from the document's actual imag
 
 ## Publishing to GitHub Pages
 
-1. Upload `index.html`, `README.md` and `LICENSE` to the repository.
+1. Upload `PDF-Compressor.html`, `README.md` and `LICENSE` to the repository.
 2. Open **Settings → Pages**.
 3. Under **Source**, select **Deploy from a branch**.
 4. Choose branch `main` and folder `/ (root)`, then select **Save**.
@@ -121,7 +121,7 @@ A separate robustness suite covers empty pages, thirty-page blank documents, tru
 ## Contributing
 
 1. Fork the repository and create a branch from `main`.
-2. Make changes in `index.html`.
+2. Make changes in `PDF-Compressor.html`.
 3. Verify in at least one Chromium-based and one non-Chromium browser: file intake, estimation, all four levels, both themes, both languages, output text selectability, and the integrity report.
 4. Confirm that no change lets an image reachable as a mask or inside a soft-mask group enter the lossy path, and that no change bypasses the post-save audit.
 5. Open a pull request describing the change and the verification performed.
@@ -130,7 +130,7 @@ A separate robustness suite covers empty pages, thirty-page blank documents, tru
 
 ## License
 
-Released under the MIT License. See `LICENSE`. Bundled third-party library code retains its original license notices, preserved inside `index.html`.
+Released under the MIT License. See `LICENSE`. Bundled third-party library code retains its original license notices, preserved inside `PDF-Compressor.html`.
 
 ---
 
