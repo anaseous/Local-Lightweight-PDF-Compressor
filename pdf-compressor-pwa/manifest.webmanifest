@@ -1,0 +1,38 @@
+{
+  "name": "PDF Compressor",
+  "short_name": "PDF Compressor",
+  "description": "Free offline PDF compressor that reduces PDF file size directly in your browser. No uploads, no accounts, no server processing. Every result is verified so no image, page or text is ever lost.",
+  "id": "/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#eef2f7",
+  "theme_color": "#16305e",
+  "lang": "en",
+  "dir": "auto",
+  "categories": [
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
